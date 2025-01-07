@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "F": {
+      "item": "minecraft:feather"
+    },
+    "G": {
+      "tag": "minecraft:fence_gates"
+    }
+  },
+  "pattern": [
+    "   ",
+    "GFG",
+    "GGG"
+  ],
+  "result": {
+    "item": "immersionearlydays:animal_gate_block"
+  },
+  "show_notification": true
+}

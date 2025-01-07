@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "immersionearlydays:gold_watering_can"
+    },
+    "P": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "P  ",
+    "PBP",
+    " P "
+  ],
+  "result": {
+    "item": "immersionearlydays:diamond_watering_can"
+  },
+  "show_notification": true
+}

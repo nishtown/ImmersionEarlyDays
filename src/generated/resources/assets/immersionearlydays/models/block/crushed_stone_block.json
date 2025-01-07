@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "immersionearlydays:block/crushed_stone_block"
+  }
+}

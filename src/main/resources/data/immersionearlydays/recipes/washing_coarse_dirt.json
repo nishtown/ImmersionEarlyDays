@@ -1,0 +1,18 @@
+{
+  "type": "immersionearlydays:stone_washing",
+  "ingredients": [
+    {
+      "item": "minecraft:coarse_dirt"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:dirt",
+      "chance": 1
+    },
+    {
+      "item": "immersionearlydays:copper_nodule",
+      "chance": 0.075
+    }
+  ]
+}

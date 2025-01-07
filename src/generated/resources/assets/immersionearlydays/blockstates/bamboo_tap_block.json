@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "state=empty": {
+      "model": "immersionearlydays:block/bamboo_tap_empty"
+    },
+    "state=full": {
+      "model": "immersionearlydays:block/bamboo_tap_full"
+    },
+    "state=running": {
+      "model": "immersionearlydays:block/bamboo_tap_running"
+    }
+  }
+}

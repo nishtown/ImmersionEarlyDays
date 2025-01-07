@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bamboo"
+    },
+    "C": {
+      "item": "minecraft:bowl"
+    }
+  },
+  "pattern": [
+    "BB ",
+    "BC ",
+    "BC "
+  ],
+  "result": {
+    "item": "immersionearlydays:bamboo_tap_block"
+  },
+  "show_notification": true
+}

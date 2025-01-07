@@ -1,0 +1,32 @@
+{
+  "item.immersionearlydays.copper_nodule": "Copper Nodule",
+  "item.immersionearlydays.copper_nugget": "Copper Nugget",
+  "item.immersionearlydays.iron_nodule": "Iron Nodule",
+
+  "item.immersionearlydays.metal_detector": "Metal Detector",
+  "item.immersionearlydays.wooden_watering_can": "Wooden Watering Can",
+  "item.immersionearlydays.iron_watering_can": "Iron Watering Can",
+  "item.immersionearlydays.gold_watering_can": "Gold Watering Can",
+  "item.immersionearlydays.diamond_watering_can": "Diamond Watering Can",
+
+  "block.immersionearlydays.crushed_stone_block": "Crushed Stone",
+  "block.immersionearlydays.coarse_gravel_block": "Coarse Gravel",
+  "block.immersionearlydays.stone_washer_block": "Stone Washer",
+  "block.immersionearlydays.damp_gravel_block": "Damp Gravel",
+  "block.immersionearlydays.bamboo_tap_block": "Bamboo Water Tap",
+  "block.immersionearlydays.animal_gate_block": "Animal Gate",
+  "block.immersionearlydays.water_tank": "Water Tank",
+  "block.immersionearlydays.water_tank.info": "Water Tank: %s / %s mB",
+
+  "block.immersionearlydays.sprinkler": "Sprinkler",
+
+  "creativetab:immersionearlydays": "Immersion Early Days",
+
+
+  "jei.tooltip.chance": "Chance: %s",
+
+  "key.immersion_early_days.block_coords": "Display Block Coordinates",
+  "key.categories.immersion_early_days": "Immersion Early Days"
+
+}
+

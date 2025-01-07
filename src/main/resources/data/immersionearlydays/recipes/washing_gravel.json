@@ -1,0 +1,18 @@
+{
+  "type": "immersionearlydays:stone_washing",
+  "ingredients": [
+    {
+      "item": "minecraft:gravel"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersionearlydays:damp_gravel_block",
+      "chance": 0.10
+    },
+    {
+      "item": "immersionearlydays:iron_nodule",
+      "chance": 0.115
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "immersionearlydays:stone_washing",
+  "ingredients": [
+    {
+      "item": "immersionearlydays:crushed_stone_block"
+    }
+  ],
+  "results": [
+    {
+      "item": "immersionearlydays:coarse_gravel_block",
+      "chance": 1
+    },
+    {
+      "item": "immersionearlydays:iron_nodule",
+      "chance": 0.1
+    }
+  ]
+}

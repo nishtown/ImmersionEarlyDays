@@ -47,7 +47,7 @@ Immersion Early Days is a Minecraft Forge mod for version 1.20.1 that focuses on
 
 ## Installation
 1. Download and install [Minecraft Forge](https://files.minecraftforge.net/) for version 1.20.1.
-2. Download the latest release of Immersion Early Days from the [Releases](https://github.com/YourUsername/ImmersionEarlyDays/releases) section.
+2. Download the latest release of Immersion Early Days from the [Releases](https://github.com/nishtown/ImmersionEarlyDays/releases) section.
 3. Place the mod `.jar` file in your Minecraft `mods` folder.
 4. Launch Minecraft with the Forge profile to enjoy the mod.
 
@@ -69,7 +69,7 @@ Contributions are welcome! If you'd like to contribute to the mod, please follow
 ---
 
 ## Issues
-If you encounter any bugs or have suggestions for improvement, please open an issue in the [Issues](https://github.com/YourUsername/ImmersionEarlyDays/issues) section.
+If you encounter any bugs or have suggestions for improvement, please open an issue in the [Issues](https://github.com/nishtown/ImmersionEarlyDays/issues) section.
 
 ---
 
@@ -79,7 +79,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ---
 
 ## Credits
-- Mod Creator: [Your Name](https://github.com/YourUsername)
+- Mod Creator: [Your Name](https://github.com/nishtown)
 - Special Thanks: The Minecraft modding community for their tools and resources.
 
 ---

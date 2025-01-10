@@ -79,7 +79,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ---
 
 ## Credits
-- Mod Creator: [Your Name](https://github.com/nishtown)
+- Mod Creator: [Nishtown](https://github.com/nishtown)
 - Special Thanks: The Minecraft modding community for their tools and resources.
 
 ---

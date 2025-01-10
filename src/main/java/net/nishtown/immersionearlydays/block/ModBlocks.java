@@ -1,7 +1,6 @@
 package net.nishtown.immersionearlydays.block;
 
 import com.google.common.collect.Lists;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -16,11 +15,11 @@ import net.minecraftforge.registries.RegistryObject;
 import net.nishtown.immersionearlydays.ImmersionEarlyDays;
 import net.nishtown.immersionearlydays.block.custom.*;
 import net.nishtown.immersionearlydays.item.ModItems;
+import net.nishtown.immersionearlydays.worldgen.tree.GiantAcaciaGrower;
 import net.nishtown.immersionearlydays.worldgen.tree.GiantBirchGrower;
 import net.nishtown.immersionearlydays.worldgen.tree.GiantOakGrower;
 
 import java.util.List;
-import java.util.Locale;
 import java.util.function.Supplier;
 
 public class ModBlocks {
@@ -61,6 +60,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GIANT_OAK_SAPLING = registerBlock("giant_oak_sapling",
             () -> new SaplingBlock(new GiantOakGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+
+    public static final RegistryObject<Block> GIANT_ACACIA_SAPLING = registerBlock("giant_acacia_sapling",
+            () -> new SaplingBlock(new GiantAcaciaGrower(), BlockBehaviour.Properties.copy(Blocks.ACACIA_SAPLING)));
 
     public static final RegistryObject<Block> WATER_TANK_BLOCK = registerBlock("water_tank",
             () -> new WaterTankBlock(BlockBehaviour.Properties.copy(Blocks.SPRUCE_PLANKS)

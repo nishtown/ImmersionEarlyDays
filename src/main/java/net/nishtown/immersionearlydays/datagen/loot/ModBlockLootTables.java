@@ -1,7 +1,6 @@
 package net.nishtown.immersionearlydays.datagen.loot;
 
 import net.minecraft.data.loot.BlockLootSubProvider;
-import net.minecraft.world.entity.Mob;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantments;
@@ -13,7 +12,6 @@ import net.minecraft.world.level.storage.loot.predicates.BonusLevelTableConditio
 import net.minecraft.world.level.storage.loot.predicates.LootItemRandomChanceCondition;
 import net.minecraftforge.registries.RegistryObject;
 import net.nishtown.immersionearlydays.block.ModBlocks;
-import net.nishtown.immersionearlydays.item.ModItems;
 
 import java.util.Set;
 
@@ -33,6 +31,7 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.dropSelf(ModBlocks.ANIMAL_GATE_BLOCK.get());
         this.dropSelf(ModBlocks.GIANT_BIRCH_SAPLING.get());
         this.dropSelf(ModBlocks.GIANT_OAK_SAPLING.get());
+        this.dropSelf(ModBlocks.GIANT_ACACIA_SAPLING.get());
         this.dropSelf(ModBlocks.WATER_TANK_BLOCK.get());
         this.dropSelf(ModBlocks.SPRINKLER_BLOCK.get());
 

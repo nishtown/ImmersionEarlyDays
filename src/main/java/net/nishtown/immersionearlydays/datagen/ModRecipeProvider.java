@@ -3,23 +3,17 @@ package net.nishtown.immersionearlydays.datagen;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.tags.ItemTags;
-import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.AbstractCookingRecipe;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.RecipeSerializer;
-import net.minecraft.world.item.crafting.ShapelessRecipe;
 import net.minecraft.world.level.ItemLike;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.nishtown.immersionearlydays.ImmersionEarlyDays;
 import net.nishtown.immersionearlydays.block.ModBlocks;
 import net.nishtown.immersionearlydays.item.ModItems;
-import net.nishtown.immersionearlydays.util.ModTags;
 
 import java.util.List;
 import java.util.function.Consumer;
@@ -151,6 +145,13 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_bucket", has(Items.BOWL)) // Another unlock condition
                 .save(pWriter); // Save with the appropriate namespace
 
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, Blocks.GRASS_BLOCK, 1)
+                .requires(Items.GRASS)
+                .requires(Items.GRASS)
+                .requires(Items.GRASS)
+                .requires(Items.GRASS)
+                .unlockedBy("has grass", has(Items.GRASS))
+                .save(pWriter);
 
 //        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.SAPPHIRE.get(), 9)
 //                .requires(ModBlocks.SAPPHIRE_BLOCK.get())

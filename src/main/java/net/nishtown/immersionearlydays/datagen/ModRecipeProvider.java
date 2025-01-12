@@ -37,6 +37,14 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy(getHasName(ModBlocks.ANIMAL_GATE_BLOCK.get()), has(ModBlocks.ANIMAL_GATE_BLOCK.get()))
                 .save(pWriter);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, Blocks.COBBLESTONE)
+                .pattern("PPP")
+                .pattern("PPP")
+                .pattern("PPP")
+                .define('P', ModItems.STONE_PEBBLE.get())
+                .unlockedBy(getHasName(Blocks.DIRT), has(Blocks.DIRT))
+                .save(pWriter);
+
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.STONE_WASHER_BLOCK.get())
                 .pattern("P P")
                 .pattern("PBP")

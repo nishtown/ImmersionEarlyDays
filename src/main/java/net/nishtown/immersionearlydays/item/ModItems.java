@@ -35,6 +35,9 @@ public class ModItems {
     public static final RegistryObject<Item> IRON_NODULE = ITEMS.register("iron_nodule",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> STONE_PEBBLE = ITEMS.register("stone_pebble",
+            () -> new Item(new Item.Properties()));
+
 
     //RECIPES GO IN MODRECIPEPROVDER
 
@@ -46,7 +49,8 @@ public class ModItems {
             WOODEN_WATERING_CAN,
             IRON_WATERING_CAN,
             GOLD_WATERING_CAN,
-            DIAMOND_WATERING_CAN
+            DIAMOND_WATERING_CAN,
+            STONE_PEBBLE
     );
 
     public static final List<RegistryObject<Item>> WATERING_CANS = Lists.newArrayList(

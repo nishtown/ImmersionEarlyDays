@@ -17,9 +17,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.nishtown.immersionearlydays.block.ModBlocks;
 import net.nishtown.immersionearlydays.block.ModBlockEntities;
-import net.nishtown.immersionearlydays.handlers.KeyInputHandler;
-import net.nishtown.immersionearlydays.handlers.KeybindHandler;
-import net.nishtown.immersionearlydays.handlers.SaplingGrowthHandler;
+import net.nishtown.immersionearlydays.handlers.*;
 import net.nishtown.immersionearlydays.item.ModCreativeModeTabs;
 import net.nishtown.immersionearlydays.item.ModItems;
 import net.nishtown.immersionearlydays.recipe.ModRecipes;
@@ -58,6 +56,8 @@ public class ImmersionEarlyDays
 
         // Register event handlers
         MinecraftForge.EVENT_BUS.register(new SaplingGrowthHandler());
+        MinecraftForge.EVENT_BUS.register(new PebbleDropHandler());
+        MinecraftForge.EVENT_BUS.register(new CobblestoneGeneratorHandler());
         MinecraftForge.EVENT_BUS.register(CoordinateDisplayHandler.class);
 
         MinecraftForge.EVENT_BUS.register(this);
